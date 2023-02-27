@@ -15,7 +15,8 @@ urlpatterns = [
     # User management
     path("users/", include("prm.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
-    # Your stuff: custom urls includes go here
+    # Apps
+    path("dashboard/", include("prm.dashboard.urls", namespace="dashboard")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
