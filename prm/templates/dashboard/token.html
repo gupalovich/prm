@@ -2,30 +2,30 @@
 {% load static %}
 {% block title %}Profile{% endblock %}
 {% block content %}
-    <img id="burger" src="{% static 'main/img/menu_burger.svg'%}" alt="">
+    <img id="burger" src="{% static 'img/menu_burger.svg'%}" alt="">
     <div class="dashboard_body">
         <div id="sidenav" class="sidenav">
             <div class="side_logo"></div>
             <div class="menu">
                 <a  href="{% url 'dashboard:index' %}" class="menu_item active">
-                    <img class="menu_icon" src="{% static 'main/img/dashboard_icon_active.svg'%}" alt="">
+                    <img class="menu_icon" src="{% static 'img/dashboard_icon_active.svg'%}" alt="">
                     <p class="menu_name">Dashboard</p>
                     <div class="active_line"></div>
                 </a>
                 <a  href="{% url 'dashboard:token' %}" class="menu_item">
-                    <img class="menu_icon" src="{% static 'main/img/token_icon.svg '%}" alt="">
+                    <img class="menu_icon" src="{% static 'img/token_icon.svg '%}" alt="">
                     <p class="menu_name">Token</p>
                 </a>
                 <a  href="{% url 'dashboard:team' %}" class="menu_item">
-                    <img class="menu_icon" src="{% static 'main/img/team_icon.svg '%}" alt="">
+                    <img class="menu_icon" src="{% static 'img/team_icon.svg '%}" alt="">
                     <p class="menu_name">Team</p>
                 </a>
                 <a  href="{% url 'dashboard:profile' %}" class="menu_item">
-                    <img class="menu_icon" src="{% static 'main/img/profile_icon.svg '%}" alt="">
+                    <img class="menu_icon" src="{% static 'img/profile_icon.svg '%}" alt="">
                     <p class="menu_name">Profile</p>
                 </a>
                 <a  href="{% url 'account_login' %}" class="menu_item">
-                    <img class="menu_icon" src="{% static 'main/img/sign_out_icon.svg '%}" alt="">
+                    <img class="menu_icon" src="{% static 'img/sign_out_icon.svg '%}" alt="">
                     <p class="menu_name">Sign Out</p>
                 </a>
             </div>
@@ -41,21 +41,21 @@
                 <div class="bio_part">
                     <button class="invite_link">Ссылка для приглашения</button>
                     <button class="metamask_button">
-                        <img src="{% static 'main/img/metamask.svg'%}" alt="">
+                        <img src="{% static 'img/metamask.svg'%}" alt="">
                     </button>
-                    <img class="avatar_icon" src="{% static 'main/img/avatar.png'%}" alt="">
+                    <img class="avatar_icon" src="{% static 'img/avatar.png'%}" alt="">
                 </div>
             </div>
             <div class="tiles">
                 <div id="my_tokens" class="tile little_tile">
-                    <img class="tile_icon" src="{% static 'main/img/my_tokens_icon.svg'%}" alt="">
+                    <img class="tile_icon" src="{% static 'img/my_tokens_icon.svg'%}" alt="">
                     <div class="tile_text">
                         <p class="tile_name">Мои токены</p>
                         <p class="tile_counter"> 454 543</p>
                     </div>
                 </div>
                 <div id="token_sum" class="tile little_tile">
-                    <img class="tile_icon" src="{% static 'main/img/sum_icon.svg'%}" alt="">
+                    <img class="tile_icon" src="{% static 'img/sum_icon.svg'%}" alt="">
                     <div class="tile_text">
                         <p class="tile_name">Сумма токенов</p>
                         <p class="tile_counter">$642.39</p>
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div id="rate" class="tile little_tile">
-                    <img class="tile_icon" src="{% static 'main/img/rate_icon.svg'%}" alt="">
+                    <img class="tile_icon" src="{% static 'img/rate_icon.svg'%}" alt="">
                     <div class="tile_text">
                         <p class="tile_name">Курс токена</p>
                         <p class="tile_counter">$0.001</p>
@@ -98,7 +98,7 @@
                             <p class="description">Осталось токенов</p>
 
                             <div class="round_number">
-                                <img src="{% static 'main/img/check_box_active.svg'%}" alt="">
+                                <img src="{% static 'img/check_box_active.svg'%}" alt="">
                                 <p class="round_percent">1 Раунд 10%</p>
                             </div>
                             <p class="price">$ 0.001</p>
@@ -126,59 +126,59 @@
                             <p class="description">Total cost</p>
 
                             <div class="round_number">
-                                <img src="{% static 'main/img/check_box_active.svg'%}" alt="">
+                                <img src="{% static 'img/check_box_active.svg'%}" alt="">
                                 <p class="round_percent">1 Раунд 10%</p>
                             </div>
                             <p class="price">$ 0.001</p>
                             <p class="total_cost">$ 100 000</p>
 
                             <div class="round_number">
-                                <img src="{% static 'main/img/checkbox.svg'%}" alt="">
+                                <img src="{% static 'img/checkbox.svg'%}" alt="">
                                 <p class="round_percent">2 Раунд 10%</p>
                             </div>
                             <p class="price">$ 0.005</p>
                             <p class="total_cost">$ 500 000</p>
 
                             <div class="round_number">
-                                <img src="{% static 'main/img/checkbox.svg'%}" alt="">
+                                <img src="{% static 'img/checkbox.svg'%}" alt="">
                                 <p class="round_percent">3 Раунд 5%</p>
                             </div>
                             <p class="price">$ 0.01</p>
                             <p class="total_cost">$ 500 000</p>
 
                             <div class="round_number">
-                                <img src="{% static 'main/img/checkbox.svg'%}" alt="">
+                                <img src="{% static 'img/checkbox.svg'%}" alt="">
                                 <p class="round_percent">4 Раунд 5%</p>
                             </div>
                             <p class="price">$ 0.05</p>
                             <p class="total_cost">$ 2 500 000</p>
 
                             <div class="round_number">
-                                <img src="{% static 'main/img/checkbox.svg'%}" alt="">
+                                <img src="{% static 'img/checkbox.svg'%}" alt="">
                                 <p class="round_percent">5 Раунд 3%</p>
                             </div>
                             <p class="price">$ 0.06</p>
                             <p class="total_cost">$ 1 800 000</p>
                             <div class="round_number">
-                                <img src="{% static 'main/img/checkbox.svg'%}" alt="">
+                                <img src="{% static 'img/checkbox.svg'%}" alt="">
                                 <p class="round_percent">6 Раунд 3%</p>
                             </div>
                             <p class="price">$ 0.07</p>
                             <p class="total_cost">$ 2 100 000</p>
                             <div class="round_number">
-                                <img src="{% static 'main/img/checkbox.svg'%}" alt="">
+                                <img src="{% static 'img/checkbox.svg'%}" alt="">
                                 <p class="round_percent">7 Раунд 3%</p>
                             </div>
                             <p class="price">$ 0.08</p>
                             <p class="total_cost">$ 2 400 000</p>
                             <div class="round_number">
-                                <img src="{% static 'main/img/checkbox.svg'%}" alt="">
+                                <img src="{% static 'img/checkbox.svg'%}" alt="">
                                 <p class="round_percent">8 Раунд 1%</p>
                             </div>
                             <p class="price">$ 0.1</p>
                             <p class="total_cost">$ 1 000 000</p>
                         </div>
-                        <img class="diagram" src="{% static 'main/img/diagram.svg'%}" alt="">
+                        <img class="diagram" src="{% static 'img/diagram.svg'%}" alt="">
                     </div >
                 </div>
             </div>
@@ -197,5 +197,5 @@
             </div>
         </div>
     </div>
-    <script src="{% static 'main/scripts/menu.js' %}"></script>
+    <script src="{% static 'scripts/menu.js' %}"></script>
 {% endblock %}
